@@ -67,8 +67,10 @@ namespace AddFraction
 
             //add both fractions to create 3rd fraction
             Add(ref numerator, ref denominator, ref mixed, ref numerator2, ref denominator2, ref mixed2);
+            
             //find GCF of that fraction
             GCF(ref finalNumerator, ref finalDenominator, ref greatestCommonFactor3);
+            
             //simplify third fraction
             Simplify(ref finalNumerator, ref finalDenominator, ref greatestCommonFactor3, ref finalMixed);
 
@@ -136,7 +138,7 @@ namespace AddFraction
             {
                 num = num / greatest;
                 den = den / greatest;
-                //set mixed to numerator divided by denominator
+                //set mixed to numerator divided by denominator if necessary
                 if (num > den)
                 {
                     //set mix for current fraction instance
@@ -161,8 +163,11 @@ namespace AddFraction
 
         static void Add(ref int num1, ref int den1, ref int mix1, ref int num2, ref int den2, ref int mix2)
         {
+            //instead of finding GCF, just multiply them both. Brute-force method.
             finalDenominator = den1 * den2;
+            //as above, but for numerator
             finalNumerator = (num1 * den2) + (num2 * den1);
+            //add both mixes
             finalMixed = mix1 + mix2;
         }
     }
