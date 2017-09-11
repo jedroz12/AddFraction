@@ -1,0 +1,6 @@
+E:\Projects\C#\AddFraction\AddFraction\bin\Debug\AddFraction.exe.config
+E:\Projects\C#\AddFraction\AddFraction\bin\Debug\AddFraction.exe
+E:\Projects\C#\AddFraction\AddFraction\bin\Debug\AddFraction.pdb
+E:\Projects\C#\AddFraction\AddFraction\obj\Debug\AddFraction.csprojResolveAssemblyReference.cache
+E:\Projects\C#\AddFraction\AddFraction\obj\Debug\AddFraction.exe
+E:\Projects\C#\AddFraction\AddFraction\obj\Debug\AddFraction.pdb
